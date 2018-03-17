@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hello hello</title>
+    <style>
+    button {
+        background-color:mediumseagreen;
+        }
+    .text {
+        color: maroon;
+    }
+    .Text1 {
+        color:darkslateblue;
+        font-style:initial;
+        font-size:25px;
+    }
+    .my-img{
+        width:200px;
+        height: 500px;
+        background-image: url("./C5A596EB-4E30-4298-B684B078707BBC01.jpg")
+    }
+        </style>
+<!--JAVASCRIPT-->
+    <script>
+        function onAleart(){
+            alert('นึกแล้วว่าคุณต้องกด...!!!');
+        }
+        function Onalert1(){
+            alert('กดอีกและนะ...!!!')
+        }
+        function Onalert1myText (text){
+            var mergeText = text + document.getElementById('myText').value;
+            alert(mergeText);
+        }
+        
+    
+    </script>
+
+    
+</head>
+<body>
+    Hello Myself
+    
+<!--image tag-->
+<img class="my-img"></imag>
+<br>
+<img style = "width: 300px; height=300px;" src="./C5A596EB-4E30-4298-B684B078707BBC01.jpg"></img>
+
+    <!-- <h1 class="my-img">5555</h1>" -->
+
+    <h1 style="color:turquoise"> H111</h1>
+    <h2 class="text">H1111</h2>
+    <h3>Hihihi</h3>
+    <h1 class="Text1">ทดสอบ ทดสอบ</h1>
+    <h1><button onclick="onAleart()">กดสิครับ</button></h1>
+    <h1><button onclick="Onalert1()"style="background-color:black"><h1 style="color:orange">กดสิครับ</h1></button></h1>
+    <button style="background-color:black"><h1 style="color:orange">กดสิครับ</h1></button><br><br>
+    <button style="background-color:#FF33F0"><h1 style="color:orange">กดสิครับ</h1></button>
+    <button><h1>กดสิครับ</h1></button>
+    <button>กดสิครับ</button>
+
+    <hr/><br/>
+    Please enter text here: <input type="text" id="myText"></input><button onclick="Onalert1myText('Error นาจา:   ')">OK</button>
+    
+    <hr/><br/>
+
+    Please enter text here: <input type="text" id="myText"></input><button onclick="Onalert1myText('Please contact me:   ')">OK</button>
+
+
+</body>
+</html>
